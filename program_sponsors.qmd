@@ -1,0 +1,39 @@
+---
+title: ""
+---
+
+::: {style="text-align: center"}
+## This conference received financial support from:
+:::
+
+::: {style="text-align: center"}
+**National Science Foundation**
+
+**Bayer**
+
+**Corteva Agriscience**
+
+**Syngenta**
+
+**KWS**
+
+**SAAT**
+
+**AG**
+
+**NCGA**
+
+**The Plant Cell**
+:::
+
+![](data/assets/001_TOC_sponsors.png){fig-align="center"}
+
+::: {style="text-align: center"}
+### We thank these sponsors for their generosity!
+:::
+
+::: {style="text-align: center"}
+## A special thank you for the in-kind support from the **USDA-ARS**
+:::
+
+![](data/assets/001_TOC_sponsors_in_kind.png){fig-align="center" width="186"}

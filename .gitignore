@@ -1,0 +1,9 @@
+/.quarto/
+.Rproj.user/
+.Rhistory
+_freeze
+_site
+data/*
+
+docs/*
+Feedback Notes.txt
