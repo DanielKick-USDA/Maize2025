@@ -16,21 +16,19 @@ website:
         href: index.qmd
       - text: Schedule
         href: program_schedule.qmd
-      # - text: Schedule v2
-      #   href: generated_schedule.qmd
-      - text: Keynotes
-        href: program_keynotes.qmd
       - text: Talk Abstracts
         href: generated_talks.qmd
-      # - text: Talk Grid
-      #   href: generated/talks/index.qmd
+      - text: Keynote Abstracts
+        href: generated_keynote_list.qmd
+      - text: Lightning Abstracts
+        href: generated_lightning_list.qmd        
       - text: Poster Overview
         href: program_poster_list.qmd
       - text: Poster Abstracts
         href: generated_poster_list.qmd
-      # - text: Poster Grid
-        # href: generated/posters/index.qmd
-      
+      - text: Ref
+        href: launch.qmd
+        
     right:
       - text: Map
         href: program_map.qmd
@@ -42,8 +40,9 @@ website:
         href: program_authors_attendees.qmd
       - text: Sponsors
         href: program_sponsors.qmd
+
   page-footer:
-    center: |
+    left: |
       Produced by [Daniel Kick, PhD](mailto:hello@danielkick.com)
     background: "#2780e3"  
 
