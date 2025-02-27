@@ -20,7 +20,7 @@ library(readxl)
 
 ## Author Index
 ```{r echo=FALSE}
-read_xlsx('./data/MM2024-data.xlsx', sheet = 'Author Index') |>
+read_xlsx('./data/MGM2025-Abstracts_v4.xlsx', sheet = 'Author Index') |>
   kbl() |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
@@ -28,7 +28,7 @@ read_xlsx('./data/MM2024-data.xlsx', sheet = 'Author Index') |>
 
 ## Attendee List
 ```{r echo=FALSE}
-read_xlsx('./data/MM2024-data.xlsx', sheet = 'Attendee List') |>
+read_xlsx('./data/MGM2025-Abstracts_v4.xlsx', sheet = 'Attendee List') |>
   kbl() |>
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```

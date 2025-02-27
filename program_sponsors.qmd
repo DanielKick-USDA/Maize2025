@@ -6,34 +6,34 @@ title: ""
 ## This conference received financial support from:
 :::
 
+![](data/assets/sponsor_image2025.png){fig-align="center"}
+
+
 ::: {style="text-align: center"}
-**National Science Foundation**
+[NSF](http://www.nsf.org/)
 
-**Bayer**
+[Corteva](https://www.corteva.us/)
 
-**Corteva Agriscience**
+[Bayer](http://www.bayer.com/)
 
-**Syngenta**
+[MolBreeding Biotech Ltd](https://en.molbreeding.com/)
 
-**KWS**
+[Syngenta](http://www.syngenta.com/)
 
-**SAAT**
+[KWS](https://www.kws.com/corp/en/)
 
-**AG**
+[National Corn Growers Association](http://www.ncga.com/)
 
-**NCGA**
-
-**The Plant Cell**
+[Inari](https://inari.com/)
 :::
 
-![](data/assets/001_TOC_sponsors.png){fig-align="center"}
 
 ::: {style="text-align: center"}
 ### We thank these sponsors for their generosity!
 :::
 
-::: {style="text-align: center"}
-## A special thank you for the in-kind support from the **USDA-ARS**
-:::
+<!-- ::: {style="text-align: center"} -->
+<!-- ## A special thank you for the in-kind support from the **USDA-ARS** -->
+<!-- ::: -->
 
-![](data/assets/001_TOC_sponsors_in_kind.png){fig-align="center" width="186"}
+<!-- ![](data/assets/001_TOC_sponsors_in_kind.png){fig-align="center" width="186"} -->

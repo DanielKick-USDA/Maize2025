@@ -1,39 +1,36 @@
 ---
-title: "66th Annual Maize Genetics Meeting"
+title: "67th Annual Maize Genetics Meeting"
 subtitle: ""
-toc: false
 ---
 
-# ![Watercolor corn, mimicking Barbara McClintock’s. Cover art by Sarah Oliver University of Missouri USA](data/assets/000_Cover_Draft1_watercolor_crop.svg){fig-align="center" width="100"}
 
-Hello and welcome to the Maize Meeting demonstration website!
+```{r echo=FALSE}
+#| include: false
+# toc: false
+# Quick Reference: 
 
-This is the home page. Announcements and today's schedule can be displayed here for easy access. Here's what this could look like for Friday March 1st.
-
-# Announcements:
-
-
-::: {.callout-tip appearance="simple" icon="false"}
-## Tip:
-
-Maize is a delicious model system!
-:::
-
-
-::: {.callout-warning appearance="simple" icon="false"}
-## Warning:
-
-Elote is limited! Make your way to the refreshment table soon! 
-:::
-
-
-# Today's Schedule (Friday, March 1, 2024):
-
-::: {.callout-note appearance="simple" icon="false"}
-## Note:
-
-Talks will be held in the Ballroom A Posters will be displayed in the Ballroom B&C
-:::
+# ::: {.callout-tip appearance="simple" icon="false"}
+# ## Tip:
+# 
+# Maize is a delicious model system!
+# :::
+# 
+# 
+# ::: {.callout-warning appearance="simple" icon="false"}
+# ## Warning:
+# 
+# Elote is limited! Make your way to the refreshment table soon! 
+# :::
+# 
+# 
+# # Today's Schedule (Friday, March 1, 2024):
+# 
+# ::: {.callout-note appearance="simple" icon="false"}
+# ## Note:
+# 
+# Talks will be held in the Ballroom A Posters will be displayed in the Ballroom B&C
+# :::
+```
 
 ```{r echo=FALSE}
 #| include: false
@@ -41,19 +38,20 @@ Talks will be held in the Ballroom A Posters will be displayed in the Ballroom B
 
 library(tidyverse)
 library(kableExtra)
+# library(readxl)
 
-M <- read.csv('./generated/schedule.csv')
+M <- read.csv('./generated/schedule.csv') # Times are mangled in generated
+# M <- readxl::read_xlsx('./data/MGM2025_manual_schedule.xlsx')
 M_links <- read.csv('./generated/schedule_links.csv')
 
-M$StartTime <- strftime(ymd_hms(M$StartTime), '%H:%M')
-M$EndTime   <- strftime(ymd_hms(M$EndTime), '%H:%M')
+M$StartTime <- strftime(ymd_hms(M$StartTime), '%H:%M', tz = "UTC")
+M$EndTime   <- strftime(ymd_hms(M$EndTime), '%H:%M', tz = "UTC")
 
 M[(M$StartTime == M$EndTime), 'EndTime'] <- ''
 
 
-subset_M <- function(x = "Wednesday, February 28, 2024"){
-  out <- M |>
-    filter(Day == x) |>
+subset_M <- function(df = filter(M, Day = "Wednesday, February 28, 2024")){
+  out <- df |>
     left_join(rename(M_links, Link = Name), by = 'Link') |> 
     # mutate(Link = cell_spec(Link, 'html', link = Header)) |>
     mutate(Link = case_when(
@@ -64,7 +62,6 @@ subset_M <- function(x = "Wednesday, February 28, 2024"){
   return(out)
 }
 
-
 k <- function(x){
   x |> 
   kable('html', escape = FALSE) |>
@@ -72,50 +69,92 @@ k <- function(x){
 }
 ```
 
-```{r echo=FALSE}
-subset_M(x = "Friday, March 1, 2024")[1:2, ] |> k()
-```
 
-### SESSION 2 – THE GENES THAT MAKE MAIZE
+::: {.callout-note appearance="simple" icon="false"}
+## Note:
 
-**Madelaine Bartlett**
+At present this page assumes that it's most useful to have the current day's schedule shown.
 
-```{r echo=FALSE}
-subset_M(x = "Friday, March 1, 2024")[3:10, ] |> k()
-```
+To aid in navigating the schedule I have included a table of contents. 
+:::
 
 
-### SESSION 3 – KEYNOTE  SPEAKER AND McCLINTOCK PRIZE PRESENTATION 
-
-**Petra Wolters**
+# Today's Schedule (Friday, March 7, 2025):    
 
 ```{r echo=FALSE}
-subset_M(x = "Friday, March 1, 2024")[11:14, ] |> k()
-```
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) < lubridate::hm("8:15")
+  )) |> k()
 
-
-```{r echo=FALSE}
-subset_M(x = "Friday, March 1, 2024")[15:20, ] |> k()
 ```
 
 
-### SESSION 4 – NEW TOOLS AND RESOURCES I
+### Session 2 – Modeling Corn
 
-**Lander Geadelmann**
+**Hank Bass**
 
 ```{r echo=FALSE}
-subset_M(x = "Friday, March 1, 2024")[21:26, ] |> k()
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("8:15"),
+  lubridate::hm(StartTime) < lubridate::hm("10:45")
+  )) |> k()
 ```
 
 
-### SESSION 5 – NEW TOOLS AND RESOURCES II   
+### Session 3 – Education, Community, & Outreach
 
-**Graziana Taramino**
+**Brandi Sigmon**
 
 ```{r echo=FALSE}
-subset_M(x = "Friday, March 1, 2024")[27:33, ] |> k()
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("10:45"),
+  lubridate::hm(StartTime) < lubridate::hm("12:15")
+  )) |> k()
 ```
 
+### Lunch and Poster Session
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("12:15"),
+  lubridate::hm(StartTime) < lubridate::hm("16:40")
+  )) |> k()
+```
+
+### Session 4 – Maize Under Stress
+
+**Melissa Draves**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("16:40"),
+  lubridate::hm(StartTime) < lubridate::hm("19:00")
+  )) |> k()
+```
+
+
+
+### Session 5 – Awards
+
+**Andrea Eveland**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("19:00")
+  )) |> k()
+```
 
 
 
