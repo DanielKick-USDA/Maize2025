@@ -1,0 +1,95 @@
+---
+title: "Keynotes"
+format:
+  html:
+    toc: true
+    toc-depth: 1
+---
+## KS1: Genes, jeans, genomes, and the wondrous cycles of polyploidy in plants
+<font color="#FF0066">Evolution and Population Genetics</font>
+[Jonathan Wendel](mailto:jfw@iastate.edu) (Principal Investigator)
+
+::: {.callout-note collapse="true"}
+## Author List
+<a href='mailto:jfw@iastate.edu'>Wendel, Jonathan F.</a><sup>1</sup><br>
+
+<sup>1</sup>Iowa State University, Ames, Iowa USA 50011<br>
+:::
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+One of the signal realizations of the genomics era is that all flowering plants are multiply polyploid, varying in the number and relative antiquity of their episodic, whole-genome doubling events. Gossypium, the cotton genus, exemplifies this recurrent, episodic polyploidization, with both ancient polyploidy and more recent neoallopolyploids that originated following a biological reunion 1-2 MYA of divergent diploids from different hemispheres. This serendipitous merger between diploid genomes that vary two-fold in size generated myriad genomic and transcriptomic responses, which serve as illustrative models for understanding evolutionary processes following allopolyploidy. Genomic processes include homoeologous exchange, gene silencing, intergenomic gene conversion, and novel cytonuclear interactions. Allopolyploid formation also induces complex transcriptomic responses, including genome-wide modification of genic expression and co-expression patterns and variable cis- and trans-controls governing duplicate gene expression. Cyclical, recurring polyploidy occurring over time scales ranging from hundreds to millions of years sets in motion processes that lead to genome downsizing, genomic fractionation, and chromosomal diploidization. This polyploidy-induced dynamism, observed in Gossypium, is episodically and variably reiterated throughout the angiosperms. A major challenge is to connect these long and short-term processes to our understanding of the genotype-to-phenotype equation, and hence the adaptive role of polyploidy and its importance to the generation of biodiversity and to agriculture.
+:::
+
+## KS2: Input, Insurance, Objective: Reflections on diversity from the history of crop science
+<font color="#993366">Education & Outreach</font>
+[Helen Anne Curry](mailto:hacurry@gatech.edu) (Principal Investigator)
+
+::: {.callout-note collapse="true"}
+## Author List
+<a href='mailto:hacurry@gatech.edu'>Curry, Helen Anne</a><sup>1</sup><br>
+
+<sup>1</sup>Edward Buckler, USDA-ARS, Ithaca, NY<br>
+:::
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+Today, diversity is an established organizational and community value—one that is increasingly also the object of political debate and division. Establishing clarity about what diversity is and why it matters seems more important now than ever. In this talk, I consider the history of diversity as understood within one community—specifically, crop genetic diversity as understood among plant scientists and allied researchers—from the early twentieth century to today. Crop diversity has been characterized variously as a critical resource for scientific research and agricultural development; a risk-mitigation strategy amid homogenization in agricultural production; and object valued for its own sake and for the sake of those communities associated with it. I suggest that this history of the science of crop diversity helps us to better appreciate the challenges and imperatives in fostering diversity that we face today, in maize genetics and beyond.
+:::
+
+## KS3: Why do we do maize genetics?
+McClintock Presentation
+[Edward Buckler](mailto:ed.buckler@usda.gov) (Principal Investigator)
+
+::: {.callout-note collapse="true"}
+## Author List
+<a href='mailto:ed.buckler@usda.gov'>Buckler, Edward.</a><sup>1</sup><br>
+
+<sup>1</sup>Georgia Institute of Technology; Atlanta, Georgia, USA 30316<br>
+:::
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+Each of us has a unique journey into maize genetics. For me, it began with questions: How does DNA programming work? How do we produce food? Why is maize so central to this process? These inquiries have shaped my scientific path within the maize community for over 30 years. Unlike computer programming, which may seem like starting with a blank slate (though it rarely is), biology and agriculture operate within deeply complex systems shaped by billions of interactions and a few billion years of evolution.
+
+As a geneticist seeking to design better food systems, I collaborated with this community to understand how grass evolution, maize domestication, and modern breeding shape complex traits using germplasm, genomics, field trials, and statistical and computational tools. Using these tools, we can now clearly see many commonalities in what makes the Andropogoneae grasses successful, yet the maize lineage has distinctly followed a less common genomic path to success. By tracing when and where maize was domesticated and how it adapted globally, we see that thousands of genes played a role in transforming a subtropical grass into a crop that thrives worldwide. It is now clear that maize adapts to environments through rapid regulatory turnover and genetic interplay with genome duplication, yet it remains constrained by the genetic burden of maintaining nearly 200 million bases of functional variation.
+
+Genetics has revealed how grasses have shaped our planet, providing insights into how domestication made maize central to global agriculture. But what can be achieved in this century? Maize is a powerhouse of carbon fixation, but how can we deploy genetics to enhance its nitrogen efficiency to match that of its perennial relatives? Through genetics, physiology, agronomy, artificial intelligence, and collaboration, we can leverage this rich history and genetic inheritance to design a corn production system that is not only more productive and resilient but also has lower input costs and a reduced environmental impact. We study maize genetics because it offers insights into fundamental biological questions while playing a crucial role in shaping the future of the global food system.
+:::
+
+## KS4: You need a real maize geneticist
+<font color="#663399">Computational and Large-Scale Biology </font>
+[Ivan Baxter](mailto:ibaxter@danforthcenter.org) (Principal Investigator)
+
+::: {.callout-note collapse="true"}
+## Author List
+<a href='mailto:ibaxter@danforthcenter.org'>Baxter, Ivan</a><sup>1</sup><br>
+
+<sup>1</sup>Donald Danfroth Plant Science Center; St. Louis, Mo<br>
+:::
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+Plant growth and water use are interrelated processes influenced by the genetic control of both morphological and biochemical characteristics. Improving plant water use efficiency (WUE) to sustain growth in different environments is an important breeding objective that can improve crop yields and enhance agricultural sustainability. However, using traditional genetic methods to increase WUE has proven difficult due to low throughput and environmental heterogeneity encountered in field settings. To overcome these limitations, we used a high-throughput phenotyping platform to quantify plant size and water use of populations from two Panicoid C4 species under water availability contrasts. Leveraging the tight environmental control of the system, we collected samples for extensive untargeted metabolomics to understand the biochemical response of the plants. We used genome-wide association analysis to identify loci controlling the hundreds of physiological traits and thousands of metabolite traits. Comparing across species allows us to identify loci that are conserved across Panicoid evolution. We are leveraging pan-genome and transcriptome resources to identify candidate genes for these traits to facilitate targeted improvement of WUE in crop plants.
+:::
+
+## KS5: Environmental integration with root cell type development
+<font color="#339966">Cell and Developmental Biology </font>
+[Siobhan Brady](mailto:sbrady@ucdavis.edu) (Principal Investigator)
+
+::: {.callout-note collapse="true"}
+## Author List
+<a href='mailto:sbrady@ucdavis.edu'>Brady, Siobhán M.</a><sup>1</sup><br>
+
+<sup>1</sup>Howard Hughes Medical Institute, University of California<br>
+:::
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+A plant’s roots serve as a major line of defense against environmental stress to protect the plant as a whole. Roots of diverse plant species have found ways to deal with stress by devising cell wall modifications and natural barriers to resist drought, flooding, mineral deficiencies, and other insults that impair plant growth. Many plant species have evolved unique cell wall forms composed of specialized biopolymeric metabolites that are deposited in elegant patterns in specific cell types. These walls are largely molecularly understudied although they are linked with a variety of stress responses. I will describe my group’s approaches that merge classic developmental genetics with systems biology to elucidate these developmental programs in multiple plant species.
+:::
