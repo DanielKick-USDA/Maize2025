@@ -173,3 +173,7 @@ subset_M(filter(
 :::
 
 ![](data/assets/000_Cover_Draft1_ConferenceDirect.png){fig-align="center" width="225"}
+
+::: {style="text-align: center"}
+<span style="color:firebrick">| Produced by</span> [<span style="color:firebrick">Daniel Kick, PhD</span>](mailto:hello@danielkick.com)
+:::
